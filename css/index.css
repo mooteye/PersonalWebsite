@@ -4,3 +4,22 @@ body {
   font-family: courier;
   font-size: 18px;
 }
+/* unvisited link */
+a {
+   color: red;
+}
+
+/* visited link */
+a:visited {
+   color: green;
+}
+
+/* mouse over link */
+a:hover {
+   color: hotpink;
+}
+
+/* selected link */
+a:active {
+   color: blue;
+}
